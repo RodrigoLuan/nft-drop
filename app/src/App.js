@@ -5,7 +5,7 @@ import twitterLogo from "./assets/twitter-logo.svg";
 import CandyMachine from "./CandyMachine";
 
 // Constants
-const TWITTER_HANDLE = "_buildspace";
+const TWITTER_HANDLE = "downt3mpo";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
@@ -63,7 +63,7 @@ const App = () => {
 		<div className="App">
 			<div className="container">
 				<div className="header-container">
-					<p className="header">🍭 Candy Drop</p>
+					<p className="header">⛰️ NFT DO RODS</p>
 					<p className="sub-text">NFT drop machine with fair mint</p>
 					{!walletAddress && renderNotConnectedContainer()}
 				</div>
@@ -81,7 +81,7 @@ const App = () => {
 						href={TWITTER_LINK}
 						target="_blank"
 						rel="noreferrer"
-					>{`Adapted from @${TWITTER_HANDLE}`}</a>
+					>{`@${TWITTER_HANDLE}`}</a>
 				</div>
 			</div>
 		</div>
